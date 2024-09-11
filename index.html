@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2d0b8b218c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="logo.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h6>
+            Hi, I'm <span>Rutuja Kolte</span> <br/>
+            From India
+          </h6>
+        </div>
+      </div>
+    </div>
+    <!----------------about----------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="2.png" alt="Profile Image" />
+          </div>
+          <div class="about-col-3">
+            <h6 class="sub-title">About Me</h6>
+            <p>
+              Hi, My name is Rutuja Kolte. I am studying in PDEA college of engineering manjari,
+              I am a third year computer engineer  student. And currently working on Web Development
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>2024 - Current</span><br />Full Stack Development
+                  Training
+                </li>
+                <li><span>2023</span><br />Microsoft-Excel</li>
+                <li><span>2023</span><br />Language-Python,Java</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2024 - Current</span><br />Full Stack Development
+                  Training
+                </li>
+                <li>
+                  <span>2023</span><br />Completed 4 month internship at PHN
+                  Technology in Web Development
+                </li>
+                <li>
+                  <span>2023</span><br />Completed Java With DSA course at Apna
+                  College
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2024</span><br />Pursuing Degree at PDEA's College of
+                  Engineering Pune
+                </li>
+                <li><span>2021</span><br />HSC from Pune University</li>
+                <li><span>2020</span><br />SSC from Pune University</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------services---------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              iusto tempore, totam impedit aut culpa voluptas pariatur? Ad
+              consequatur sunt quod quo totam odio harum. Quod error saepe
+              maxime at.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              iusto tempore, totam impedit aut culpa voluptas pariatur? Ad
+              consequatur sunt quod quo totam odio harum. Quod error saepe
+              maxime at.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              iusto tempore, totam impedit aut culpa voluptas pariatur? Ad
+              consequatur sunt quod quo totam odio harum. Quod error saepe
+              maxime at.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------portfolio------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="work1.png" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connects you yo the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work2.png" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                The app connects you yo the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work3.png" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app connects you yo the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-----------------contact--------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="coltact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"> </i
+              >rutujakote193@gmail.com
+            </p>
+            <p><i class="fa-solid fa-circle-phone"> </i>0123456789</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/" <a href="">
+                <i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-square-twitter"></i>></a>
+              <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="coltact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required >
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submmit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ Rutuja <i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
